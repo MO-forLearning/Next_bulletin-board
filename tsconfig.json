@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/libs/db.js",
+    "src/features/categories/Category_list.jsx",
+    "src/features/titles/Title_list.jsx",
+    "src/components/base/Aside.jsx",
+    "src/components/base/layout.jsx",
+    "src/components/base/Main.jsx",
+    "src/const/siteData.jsx",
+    "src/features/categories/ACategory.jsx",
+    "src/features/categories/Post_category.jsx",
+    "src/features/comments/Post_comment.jsx",
+    "src/features/hooks/getAPI/useFetch.jsx",
+    "src/features/search/Search_comment.jsx",
+    "src/features/search/Search_outline.jsx",
+    "src/features/search/Search_titleName.jsx",
+    "src/features/search/SearchBtn.jsx",
+    "src/features/titles/Post_title.jsx",
+    "src/features/titles/RecentCount.jsx",
+    "src/features/titles/RecentTItleArea.jsx"
+, "src/features/titles/SimpleTitleList.jsx", "src/features/users/LogoutButton.jsx", "src/features/users/RecentPostUser.jsx", "src/features/users/UserName.jsx", "src/pages/api/categories/index.jsx", "src/pages/api/comments/title_id/[...params].jsx", "src/pages/api/comments/[...params].jsx", "src/pages/api/comments/index.jsx", "src/pages/api/search/[...params].jsx", "src/pages/api/titles/recent/[...params].jsx", "src/pages/api/titles/category_id/[category_id].jsx", "src/pages/api/categories/[...params].jsx", "src/pages/api/titles/update/[...params].jsx", "src/pages/api/users/[...params].jsx", "src/pages/SomeCategory/[category_id].jsx", "src/features/titles/RecentTitles.jsx", "src/pages/SomeTitle/[title_id].jsx", "src/features/titles/ATitle.jsx", "src/features/titles/ARecentTitle.jsx", "src/features/hooks/getTime/useTimeFunc.jsx", "src/features/hooks/getTime/useOmitTimeFunc.jsx", "src/features/comments/Comment_list.jsx", "src/features/comments/AComment.jsx", "src/components/base/Footer.jsx", "src/pages/api/titles/[...params].jsx", "src/pages/api/users/title_id/[...params].jsx", "src/pages/api/titles/index.jsx", "src/pages/api/users/login/index.jsx", "src/pages/api/users/index.jsx", "src/pages/SearchResult/index.jsx", "src/pages/Top/[page].jsx", "src/pages/index.jsx", "src/pages/LogIn.jsx", "src/pages/NewTopics.jsx"  ],
+  "exclude": ["node_modules"]
+}

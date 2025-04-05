@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .newTopic_input {
+    @apply w-full
+  }
+  .form_btn {
+    @apply m-auto block
+  }
+}
